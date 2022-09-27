@@ -1,0 +1,143 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    background-color: #FC4445;
+    position: relative;
+    animation-name: Navabara;
+    animation-timing-function: ease-in;
+    animation-duration: 1.6s;
+    animation-direction: normal;  
+    width: 100%;
+    
+    
+  
+}
+@keyframes Navabara{
+    0%   {  top:-100px;}
+  
+  
+  100% {  top:0px;}
+}
+.Navbar1{
+    background-color: rgb(255, 255, 255);
+    min-width: 3rem;
+    min-height: 3rem;
+    border-radius: 45px;
+    position: relative;
+   
+}
+
+.Navbar1 img{
+height: 5vh;
+position: absolute;
+left: 6px;
+top: 7px;
+
+}
+
+.Navbar2 h2{
+    position: relative;
+    /* left: 145px; */
+    margin: 0;
+    cursor: pointer;
+    
+}
+.Navbar3 {
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.Navbar3 li{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.Navbar4{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    
+    
+}
+.bars{
+    display: none;
+}
+
+@media only screen and (max-width: 1286px) {
+    .Navbar3{
+        display: none;
+    }
+    .bars{
+        display: flex;
+        max-width: 3vw;
+        height: 5vh;
+        
+    }
+    .Navbar{
+        display: flex;
+    align-items: center;
+    }
+    .Navbar2 h2{
+        
+    }
+}
+@media only screen and (max-width: 955px) {
+    .Navbar3{
+        display: none;
+    }
+    .bars{
+        display: flex;
+        max-width: 3vw;
+        height: 4vh;
+        
+    }
+    .Navbar{
+        display: flex;
+    align-items: center;
+    }
+    .Navbar2 h2{
+        
+    }
+}
+@media only screen and (max-width: 700px) {
+    .Navbar3{
+        display: none;
+    }
+    .bars{
+        display: flex;
+        max-width: 3vw;
+        height: 4vh;
+        
+    }
+    .Navbar{
+        display: flex;
+    align-items: center;
+    }
+    .Navbar2 h2{
+        
+    }
+}
+@media only screen and (min-width: 375px) {
+    /* .Navbar3{
+        display: none;
+    } */
+    /* .bars{
+        display: flex;
+        max-width: 6vw;
+        height: 4vh;
+        
+    } */
+    .Navbar{
+        display: flex;
+    align-items: center;
+    }
+    .Navbar2 h2{
+        
+    }
+}

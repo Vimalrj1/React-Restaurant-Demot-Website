@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.headercs1 img {
+    max-height: 60vh;
+    min-width: 98.5vw;
+    
+    
+
+
+}
+
+.headercs1 {
+    animation-name: headimg;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+@keyframes headimg {
+    0%   { left:-2000px; top:0px;}
+  
+  
+  100% { left:0px; top:0px;}
+}
+
+@media only screen and (max-width: 775px) {
+    .headercs1 img {
+        min-height: 50vh;
+    max-width: 98.5vw;
+    }
+}
